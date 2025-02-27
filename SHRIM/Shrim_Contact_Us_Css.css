@@ -1,0 +1,191 @@
+						/* Global Styles */
+
+			* {
+			  box-sizing: border-box;
+			
+			}
+
+			body {
+			  font-family: "Roboto", sans-serif;
+			  line-height: 1.6;
+			  color: #333;
+			  background-color: #F4F9F1;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+			  font-weight: bold;
+			  color: #333;
+			  margin-bottom: 10px;
+			}
+
+			p {
+			  margin-bottom: 20px;
+			}
+
+			a {
+			  text-decoration: none;
+			  color: #337ab7;
+			}
+
+			a:hover {
+			  color: #23527c;
+			}
+			
+			ul{
+			list-style: none;	
+			}
+
+			/* Navigation Bar */
+
+	
+			hr{ 
+			display: flex; /* this is the hr layout */
+			width: 65%;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+			height: 2px;
+			background-color: #12362D;
+			}
+			
+			.navbar {
+			display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0px;
+			}
+			
+			.navbar li {
+			font-size: 32px;
+			
+			}
+			
+			.nav li{
+			 margin-right: 50px; /* use for making the list to have a gap among each other */
+			}
+			
+			.nav a{
+			font-family: "Abril Fatface", serif;
+			}
+			.nav a:hover{
+			color: #206050; /* hover link color */
+			background-color: #c2e2b6;
+			
+			font-family: "Abril Fatface", serif;
+			transition: color 0.21s ease-in-out;
+			transition: border-radius 0.21s ease-in-out;
+			border-radius: 30px;
+			padding: 10px;
+		}
+		
+			
+			.logo img {
+            height: 100px; 
+            width: auto;
+			}
+			.navbar .logo {
+			  margin-left: 30px;
+			  border-radius: 50px 2px 50px 2px;
+			  background-color: #d5e5cc;
+			  width: 120px;
+			  height: 120px;
+			  padding: 10px;
+		
+			}
+
+			.navbar .logo img {
+			  height: 100px;
+			}
+
+			.navbar ul {
+			position: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+			justify-content: center;
+			margin-right: 45%;
+			position: relative; /* change this if the screen is somehow does not permit it */
+			}
+
+			.navbar li {
+			  margin-right: 20px;
+			  font-size: 32px;
+			}
+
+			.navbar a {
+            color:  #12362D; /* use for making the padding larger, hovering purposes */
+			text-decoration: none;
+			padding: 10px;
+        }
+	
+	
+
+		.hh1{
+			text-align: center;
+		}
+
+
+			/* Contact Us Page */
+
+			.contact-info {
+			  
+			  margin: 20px;
+			  padding: 20px;
+			  border: 1px solid #ccc;
+			  border-radius: 10px;
+			  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			  background-color: #f1f6ee;
+			}
+
+			.contact-info h2 {
+			  margin-top: 0;
+			}
+
+			.contact-form {
+			  margin: 20px;
+			  padding: 20px;
+			  border: 1px solid #ccc;
+			  border-radius: 10px;
+			  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			  background-color: #f1f6ee;	
+			}
+
+			label {
+			  display: block;
+			  margin-bottom: 10px;
+			}
+
+			input, textarea {
+			  width: 100%;
+			  padding: 10px;
+			  margin-bottom: 20px;
+			  border: 1px solid #ccc;
+			}
+
+			input[type="submit"] {
+			  background-color: #568f67;
+			  color: #fff;
+			  padding: 10px 20px;
+			  border: none;
+			  border-radius: 10px;
+			  cursor: pointer;
+			}
+
+			input[type="submit"]:hover {
+			  background-color: #8ebb77;
+			}
+
+			/* Footer */
+
+			footer {
+			  background-color: #50773c;
+			  padding: 10px;
+			  text-align: center;
+			  color: #fff;
+			  border-radius: 10px 10px 0px 0px;
+			}
+
+			footer p {
+			  margin-bottom: 0;
+			}
+			

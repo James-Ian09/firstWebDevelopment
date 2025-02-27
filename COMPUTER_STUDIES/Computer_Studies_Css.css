@@ -1,0 +1,615 @@
+
+	 /* Abril Fatface  */
+	 
+		*{
+		 box-sizing: border-box;
+		}
+		
+		
+        body {
+			font-family: "Roboto", sans-serif;
+			font-weight: 350;
+			font-style: normal;
+            margin: 20px;
+			background-color: #f4f9f1;
+			
+		}
+	
+		header{
+			font-family: "Abril Fatface", serif;
+			font-weight: 400;
+			font-style: normal;
+			display: block;
+			unicode-bidi: isolate;
+
+		}
+		
+		
+	
+        .hh1 { /* this is the custome font-size for the nursing department */
+			text-align: center;
+			font-size: 45px;
+            color: #265648;
+            margin-bottom: 10px;
+			font-family: "Abril Fatface", serif;
+        }
+		
+		
+		.roboto {
+			 font-family: "Sevillana", cursive;
+			font-weight: 700; /* or 500, 300, etc. depending on the weight you want */
+		}
+		
+		
+		
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+			color: red;
+            margin-bottom: 10px;
+        }
+        li:before {
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+        }
+        /* Navbar styling */
+		
+		hr{ 
+		  display: flex; /* this is the hr layout */
+		  width: 65%;
+		  justify-content: center;
+		  align-items: center;
+		  margin: auto;
+		  height: 2px;
+		  background-color: #12362D;
+		}
+		
+		.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+         
+        }
+
+		.navbar .logo{
+			margin-left: 30px;
+			border-radius: 50px 2px 50px 2px;
+			background-color: #d5e5cc;
+			width: 120px;
+			height: 120px;
+			
+		}
+		
+        .logo img {
+            height: 123px; 
+            width: auto;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+			justify-content: center;
+			margin-right: 275px;
+			position: relative; /* change this if the screen is somehow does not permit it */
+			
+        }
+
+        .navbar li {
+            margin-right: 50px; /* use for making the list to have a gap among each other */
+			font-size: 32px;
+        }
+		
+        .navbar a { 
+            color:  #12362D; /* use for making the padding larger, hovering purposes */
+			text-decoration: none;
+			padding: 10px;
+        }
+		
+		
+		
+		.nav a:hover{
+			color: #eff3d8; /* hover link color */
+			background-color: #c2e2b6;
+			
+			
+			transition: color 0.21s ease-in-out;
+			transition: border-radius 0.21s ease-in-out;
+			border-radius: 30px;
+		}
+		
+		
+		 .toTop4 .button4 a:hover{
+			color: #257460; /* hover link color */
+			background-color: #c2e2b6;
+			transition: color 0.21s ease-in-out;
+			transition: border-radius 0.21s ease-in-out;
+			transition: font-size 0.23s ease-in-out;
+			border-radius: 30px;
+			padding: 10px;
+			 font-size: 29px;
+		}
+		
+		
+		
+		 .toTop4 .button4 a{
+			 font-size: 28px;
+			 text-decoration: none;
+			 font-family: "Abril Fatface", serif;
+			 color: #12362D;
+			 
+		 }
+		 
+		.main_container{
+			max-width: 1300px;
+			margin: 0 auto; /* this is use for making all of the content appear in the center */
+			background-color: #d5e5cc;
+			padding: 50px;
+			border-radius: 25px;
+			 box-shadow: 10px 0 100px rgba(0, 0, 0, 0.1);
+		}
+		
+		.container2 , .container3 , .container4 ,
+		.container5 , .container6 , .container7 ,.container8 , .pre_container1{
+			padding: 10px 20px 10px 20px; 
+			border-radius: 10px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			background: linear-gradient(to bottom,  #E6F3DD, #EDF6E7, #E6F3DD);
+		}
+		
+		
+		.container2 .items3{ 
+			border-radius: 25px;
+			background-color: red;
+			width: 25%;
+			padding: 10px 20px 10px 20px;
+		}
+		
+		
+		.container2 .items4{ 
+			border-radius: 25px;
+			width: 75%;
+			padding: 10px 20px 10px 20px;
+			background-color: #D4E5CB;
+			font-size: 18px;
+		}
+		
+		.container3 .items5{ 
+			border-radius: 25px;
+			width: 61%;
+			padding: 10px 20px 10px 20px;
+			background-color: #D4E5CB;
+			font-size: 18px;
+		}
+		
+		.container3 .items6 > div {
+			background-color: rgba(255, 255, 255, 0.8);
+			text-align: center;
+			padding: 20px 0;
+			font-size: 30px;
+			border-radius: 10px;
+		}
+		
+		
+		
+		.container3 .items6{ 
+			border-radius: 15px 50px 15px 50px;
+			background-color: red;
+			width: 39%;
+			height: 344px;
+			padding: 10px 20px 10px 20px;
+			display: grid;
+			grid-template-areas:
+			'header header menu menu'
+			'main main right right';
+			gap: 3px;
+			background-color: #D4E5CB;
+			padding: 10px;
+		}
+		
+			
+		.container3 .items6 .item1{
+			border-radius: 10px 5px 10px 3px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Css_Picture1.jpg") no-repeat center center / cover;
+			background-position:  1px -105px;
+			filter: blur(0.5px);
+		}
+		
+		.container3 .items6 .item2{
+			border-radius: 5px 50px 5px 10px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Css_Picture2.jpg") no-repeat center center / cover;
+			background-position: 1px -120px;
+			filter: hue-rotate(35deg);
+			filter: blur(0.5px);
+		}
+		
+		.container3 .items6 .item3{
+			border-radius: 3px 10px 3px 50px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Css_Picture3.jpg") no-repeat center center / cover;
+			filter: hue-rotate(40deg);
+			filter: blur(0.5px);;
+			background-position: 0px -93px;
+		}
+		
+		.container3 .items6 .item4{
+			border-radius: 10px 5px 10px 3px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Css_Picture4.jpg") no-repeat center center / cover;
+			background-position: 1px -105px;
+			filter: blur(0.5px);
+		}
+			.item1 { grid-area: header; }
+			.item2 { grid-area: menu; }
+			.item3 { grid-area: main; }
+			.item4 { grid-area: right; }
+			
+		.container4 .items7{
+			border-radius: 25px;
+			background-color: red;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+		}
+		
+		.container4 .items8{ 
+			border-radius: 25px;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			background-color: #D4E5CB;
+			font-size: 18px;
+		}
+		
+		
+		.container4_1 .items7{
+			border-radius: 25px;
+			background-color: red;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			
+		}
+		
+		
+		/* This is the grid container for the career plan */
+		
+		.container5 .items9{ /* This is here */
+			border-radius: 15px 50px 15px 50px;
+			width: 100%;
+			height: 344px;
+			padding: 10px 20px 10px 20px;
+			display: grid;
+			grid-template-areas:
+			'header header menu menu main main'
+			'right right left left  bottom bottom';
+			gap: 5px;
+			padding: 10px;
+		}
+		
+			.item5 { grid-area: header; }
+			.item6 { grid-area: menu; }
+			.item7 { grid-area: main; }
+			.item8 { grid-area: right; }
+			.item9 { grid-area: left; }
+			.item10 { grid-area: bottom; }
+		
+	
+		.container5 .items9 .item5{
+			border-radius: 30px 5px 10px 3px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Career_Option1.png") no-repeat center center / cover;
+			
+		}
+		
+		.container5 .items9 .item6{
+			border-radius: 5px 5px 5px 10px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Career_Option2.png") no-repeat center center / cover;
+			
+		}
+		
+		.container5 .items9 .item7{
+			border-radius: 5px 30px 5px 5px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Career_Option3.png") no-repeat center center / cover;
+			
+		}
+		
+		.container5 .items9 .item8{
+			border-radius: 5px 5px 5px 30px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Career_Option4.png") no-repeat center center / cover;
+		
+		}
+		
+		
+		.container5 .items9 .item9{
+			border-radius: 5px 5px 5px 5px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Career_Option5.png") no-repeat center center / cover;
+			
+		}
+		
+
+		.container5 .items9 .item10{
+			border-radius: 5px 5px 30px 5px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Career_Option6.png") no-repeat center center / cover;
+			
+		}
+		
+		
+		
+/*============ This is use for making the career grid picture ==============*/
+		
+		
+		
+		
+		
+		
+		.container3 .items6{ 
+			border-radius: 15px 50px 15px 50px;
+			background-color: red;
+			width: 39%;
+			height: 344px;
+			padding: 10px 20px 10px 20px;
+			
+			display: grid;
+			grid-template-areas:
+			'header header menu menu'
+			'main main right right';
+			gap: 3px;
+			background-color: #D4E5CB;
+			padding: 10px;
+		}
+		
+		this stuiowehf
+		.container6 .items9{
+			border-radius: 25px;
+			background-color: red;
+			width: 25%;
+			padding: 10px 20px 10px 20px;
+		}
+		
+		.container6 .items10{
+			border-radius: 25px;
+			width: 75%;
+			padding: 10px 20px 10px 20px;
+			background-color: #D4E5CB;
+			font-size: 18px;
+		}
+		
+		.container7 .items11{
+			border-radius: 25px;
+			background-color: red;
+			width: 25%;
+			padding: 10px 20px 10px 20px;
+		}
+		
+		.container7 .items12{
+			border-radius: 25px;
+			width: 75%;
+			padding: 10px 20px 10px 20px;
+			background-color: #D4E5CB;
+			font-size: 18px;
+		}
+		
+		.container8 .items13{
+			border-radius: 25px;
+			background-color: red;
+			width: 25%;
+			padding: 10px 20px 10px 20px;
+		}
+		
+		.container8 .items14{
+			border-radius: 25px;
+			width: 75%;
+			padding: 10px 20px 10px 20px;
+			background-color: #D4E5CB;
+			font-size: 18px;
+		}
+		
+		
+		
+/*=========== This is for the image of the div that is being created ==========*/
+		.items1{
+			height: 400px;
+			background: url("../Course_Image/COMPUTER_STUDIES/Computer_Home_Picture.jpg") no-repeat center center / cover;
+			background-size: cover;
+			background-position: bottom;
+			display: flex;
+		}
+		
+		
+		.computer_Studies{
+			text-align: center;
+			font-size: 45px;
+            color: #265648;
+			font-family: "Abril Fatface", serif;
+			background-color: rgba(230, 255, 230, 0.59);
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			border-radius: 10px 10px 25px 25px;
+			margin-top: auto;
+			
+		}
+		
+		.container{ 
+			justify-content: center;
+			border-radius: 25px 25px 100px 100px;
+ 			background: linear-gradient(to bottom,  #E6F3DD, #EDF6E7, #E6F3DD);
+		}
+		
+		.container .items1{ 
+			border-radius: 25px;
+			background-color: red;
+			width: 100%;
+		}
+		
+		
+		
+		.items3{
+			height: 280px;
+			width: 100px;	
+			background: url("../Course_Image/COMPUTER_STUDIES/Computer_Studies.jpg") no-repeat center center / cover;
+			background-size: cover;
+			background-position: top;
+		}
+		
+		.items7{
+			height: 235px;
+			width: 100px;	
+			background: url("../Course_Image/COMPUTER_STUDIES/Css_Picture5.jpg") no-repeat center center / cover;
+			background-size: cover;
+			background-position: top;
+			
+		}
+		
+		.items11{
+			height: 235px;
+			width: 100px;	
+			background: url("../Course_Image/NURSING/LEADERSHIP_AND_MANAGEMENT.jpg") no-repeat center center / cover;
+			background-size: cover;
+			background-position: top;
+		}
+		
+		.items13{
+			height: 235px;
+			width: 100px;	
+			background: url("../Course_Image/NURSING/RESEARCH.jpg") no-repeat center center / cover;
+			background-size: cover;
+			background-position: top;
+		}
+		
+		.center{
+			text-align: center;
+		}
+		
+/*=========== This is for the image of the div that is being created ==========*/
+	
+		.hh2{
+			text-align: center;
+            color: #265648;
+			font-family: "Abril Fatface", serif;
+		}
+		.hh3{
+			text-align: center;
+            color: #265648;
+			font-size: 32px;
+			font-family: "Abril Fatface", serif;
+		}
+		
+        .container > div {
+			width:50%;
+			gap: 10px;
+		}
+		
+	
+		.toTop{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			border-radius: 10px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			background: linear-gradient(to bottom,  #E6F3DD, #EDF6E7, #E6F3DD );
+		}
+		
+		.toTop1{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			border-radius: 10px 10px 0px 0px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		.toTop2{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		
+		
+		.toTop3{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		
+		
+		.toTop4{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			border-radius: 0px 0px 10px 10px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		
+		.toTop1 .button{
+			border-radius: 10px;
+			width: 75%;
+			padding: 10px 20px 10px 20px;
+			background-color: #c7ddbb;
+			font-size: 18px;
+		}
+		
+		.toTop2 .button2{
+			border-radius: 10px;
+			width: 60%;
+			padding: 10px 20px 10px 20px;
+			background-color: #b9d4aa;
+			font-size: 18px;
+		}
+		
+		.toTop3 .button3{
+			border-radius: 10px;
+			width: 45%;
+			padding: 10px 20px 10px 20px;
+			background-color: #abcc99;
+			font-size: 18px;
+		}
+		
+		.toTop4 .button4{
+			border-radius: 25px;
+			width: 30%;
+			padding: 20px 20px 20px 20px;
+			background-color: #9dc388;
+			font-size: 18px;
+			align-items: center;
+		}
+		
+		.button4{
+			text-align: center;
+			align-items: center;
+			background-color: red;
+			
+		}
+/* =============== This is the other element ==================*/
+		
+        footer {
+			border-radius: 4px 4px 0px 0px;
+            background-color: #50773c;
+            text-align: center;
+            padding: 5px 0px 5px 0px;
+            position: block;
+            bottom: 0;
+            width: 100%;
+			height: 50px;
+			color: #fff;
+        }
+		
+
+		
+		/* .text-gradient { */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+		/* } */

@@ -1,0 +1,351 @@
+
+	 /* Abril Fatface  */
+	 
+		*{
+		 box-sizing: border-box;
+		}
+		
+		
+        body {
+			font-family: "Roboto", sans-serif;
+			font-weight: 350;
+			font-style: normal;
+            margin: 20px;
+			background-color: #f4f9f1;
+			
+		}
+	
+		header{
+			font-family: "Abril Fatface", serif;
+			font-weight: 400;
+			font-style: normal;
+			display: block;
+			unicode-bidi: isolate;
+
+		}
+			
+		.roboto {
+			font-family: "Sevillana", cursive;
+			font-weight: 700; /* or 500, 300, etc. depending on the weight you want */
+		}
+		
+		.roboto_small{
+			font-family: "Sevillana", cursive;
+			font-weight: 230; /* or 500, 300, etc. depending on the weight you want */
+			
+		}
+		
+		
+		
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+			color: red;
+            margin-bottom: 10px;
+        }
+        li:before {
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+        }
+        /* Navbar styling */
+		
+		hr{ 
+		  display: flex; /* this is the hr layout */
+		  width: 65%;
+		  justify-content: center;
+		  align-items: center;
+		  margin: auto;
+		  height: 2px;
+		  background-color: #12362D;
+		}
+		
+		.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+         
+        }
+
+		.navbar .logo{
+			margin-left: 30px;
+			margin-left: 30px;
+			border-radius: 50px 2px 50px 2px;
+			background-color: #d5e5cc;
+			width: 120px;
+			height: 120px;
+			padding: 10px;
+		}
+		
+        .logo img {
+            height: 105px; 
+            width: auto;
+        }
+
+        .navbar ul {
+			position: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+			justify-content: center;
+			margin-right: 45%;
+			position: relative; /* change this if the screen is somehow does not permit it */
+			}
+
+        .navbar li {
+            margin-right: 0px; /* use for making the list to have a gap among each other */
+			font-size: 32px;
+        }
+		
+        .navbar a { 
+            color:  #12362D; /* use for making the padding larger, hovering purposes */
+			text-decoration: none;
+			padding: 10px;
+        }
+		
+		
+		
+		.navbar a { 
+            color:  #12362D; /* use for making the padding larger, hovering purposes */
+			text-decoration: none;
+			padding: 10px;
+        }
+		
+		
+		.nav a:hover{
+			color: #267360; /* hover link color */
+			background-color: #c2e2b6;
+			
+			
+			transition: color 1.45s ease-in-out;
+			transition: border-radius 0.21s ease-in-out;
+			border-radius: 30px;
+		}
+		
+		
+		.toTop4 .button4 a{
+			font-size: 28px;
+			font-family: "Abril Fatface", serif;
+			color: #206050;
+		 }
+		 .toTop4 .button4 a:hover{
+			color: #eff3d8; /* hover link color */
+			background-color: #c2e2b6;
+			transition: color 0.21s ease-in-out;
+			transition: border-radius 0.21s ease-in-out;
+			transition: font-size 0.23s ease-in-out;
+			border-radius: 30px;
+			padding: 10px;
+			 font-size: 29px;
+		}
+		
+		
+		.main_container{
+			max-width: 1300px;
+			margin: 0 auto; /* this is use for making all of the content appear in the center */
+			background-color: #d5e5cc;
+			padding: 50px;
+			border-radius: 250px 25px 250px 25px;
+			box-shadow: 10px 0 100px rgba(0, 0, 0, 0.1);
+		}
+		
+		.container , .container2 , .container3{
+			padding: 10px 20px 10px 20px; 
+			border-radius: 10px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			background: linear-gradient(to bottom,  #E6F3DD, #EDF6E7, #E6F3DD);
+		}
+		
+		.container .items1{ 
+			border-radius: 25px;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			border: 1px solid #b3b3b3;
+		}
+		
+		.items1 , .items2, .items3, .items4. , .items5 , .items6{
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.container .items2{ 
+			border-radius: 25px;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			font-size: 18px;
+			border: 1px solid #b3b3b3;
+		}
+		
+		.container2 .items3{ 
+			border-radius: 25px;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			border: 1px solid #b3b3b3;
+		}
+		
+		
+		.container2 .items4{ 
+			border-radius: 25px;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			font-size: 18px;
+			border: 1px solid #b3b3b3;
+		}
+		
+		.container3 .items5{ 
+			border-radius: 25px;
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			font-size: 18px;
+			border: 1px solid #b3b3b3;
+			
+		}
+		
+		.container3 .items6{ 
+			border-radius: 25px;	
+			width: 50%;
+			padding: 10px 20px 10px 20px;
+			border: 1px solid #b3b3b3;
+		}
+		
+		 .hh1 { /* this is the custome font-size for the nursing department */
+			text-align: center;
+			font-size: 45px;
+            color: #265648;
+            margin-bottom: 10px;
+			font-family: "Abril Fatface", serif;
+        }
+		
+		.hh2{
+			text-align: center;
+            color: #265648;
+			font-family: "Abril Fatface", serif;
+		}
+		.hh3{
+            color: #265648;
+			font-size: 26px;
+			font-family: "Abril Fatface", serif;
+		}
+		
+		.hh4{
+			color: #265648;
+			font-size: 23px;
+			font-family: "Abril Fatface", serif;
+		}
+		
+		.hh5{
+			color: #265648;
+			font-size: 20px;
+			font-family: "Abril Fatface", serif;
+			font-weight: 10;
+		}
+		
+        .container > div {
+			width:50%;
+			gap: 10px;
+		}
+	
+	
+		.toTop1{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			border-radius: 10px 10px 0px 0px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		.toTop2{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		
+		
+		.toTop3{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		
+		
+		.toTop4{  /* This is use for making the green line so that it can be static */	
+			padding: 10px 20px 10px 20px; 
+			border-radius: 0px 0px 10px 10px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			align-items: center;
+ 			
+		}
+		
+		.toTop1 .button{
+			border-radius: 10px;
+			width: 75%;
+			padding: 10px 20px 10px 20px;
+			background-color: #c7ddbb;
+			font-size: 18px;
+		}
+		
+		.toTop2 .button2{
+			border-radius: 10px;
+			width: 60%;
+			padding: 10px 20px 10px 20px;
+			background-color: #b9d4aa;
+			font-size: 18px;
+		}
+		
+		.toTop3 .button3{
+			border-radius: 10px;
+			width: 45%;
+			padding: 10px 20px 10px 20px;
+			background-color: #abcc99;
+			font-size: 18px;
+		}
+		
+		.toTop4 .button4{
+			border-radius: 25px;
+			width: 30%;
+			padding: 20px 20px 20px 20px;
+			background-color: #9dc388;
+			font-size: 18px;
+			align-items: center;
+		}
+		
+		.button4{
+			text-align: center;
+			align-items: center;
+			background-color: red;
+			
+		}
+		
+        footer {
+			border-radius: 4px 4px 0px 0px;
+            background-color: #50773c;
+            text-align: center;
+            padding: 5px 0px 5px 0px;
+            position: block;
+            bottom: 0;
+            width: 100%;
+			height: 50px;
+			color: #fff;
+        }
+		
+
+		
+		/* .text-gradient { */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+		/* } */

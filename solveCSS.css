@@ -1,0 +1,201 @@
+    *{
+        margin: 0px;
+        padding: 0;
+        font-family: 'Roboto',sans-serif;
+		
+    }
+  
+    .container {
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba( 0,0,0, 0.75), rgba(0,0,0, 0.75)),
+		url(Solve_Images/building.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 8%;
+		padding-right: 8%;
+		box-sizing: border-box;
+    }
+
+    .navbar{
+        height: 12%;
+		display: flex;
+		align-items: center;
+		transform: translate(0px, -45px);
+    }
+	
+	.logo{
+		width: 175px;
+		cursor: pointer;
+		transform: translate(-90px,-10px);
+		
+	}
+	
+	nav{
+		flex: 1;
+		text-align: right;
+		
+	}
+	
+	nav ul li{
+		list-style: none;
+		display: inline-block;
+		margin-left: 60px;
+	}
+	
+	.navbar ul li a {
+		display: block;
+		padding: 10px;
+		border-radius: 3px;
+		color: #fff;
+		text-decoration: none;
+		background-color: transparent;
+		transition: background-color 0.3s ease;
+		font-size: 25px;
+		}
+		
+	.navbar ul li a:hover {
+		background-color: #dff0d8;
+		color: #333;
+	}
+	
+	.row{
+		display: flex;
+		height: 100%;
+		align-items: center;
+	}
+	
+	
+
+	
+	.col{
+		flex-basis: 50%;	
+	}
+
+	h1{
+		color: #fff;
+		font-size: 69px;
+		transform: translate(-100px, -90px);
+	}
+	
+	.explore{
+		transform: translate(-100px, -68px);
+	}
+
+	p{
+		color: #fff;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+    button{
+		background-color: #4CAF50;
+		color: #fff;
+        padding: 10px 50px; /* The first px represent the hieght second one width */
+		border: none;
+        border-radius: 5px;
+        cursor: pointer;
+		margin-top: 20px;
+		transform: translate(-100px, -68px);		
+	}
+	button:hover{
+	background-color: #3e8e41;
+	}
+	
+	.card{
+		width: 170px;
+		height: 180px;
+		display: inline-block;
+		border-radius: 10px;
+		padding: 15px 25px;
+		box-sizing:  border-box;
+		cursor: pointer;
+		margin: 15px 15px;
+		background-position: center;
+		background-size: cover;
+		transform: translate(30px, 30px);
+	}
+	
+	.medtech_1{
+		background-image: url(Solve_Images/medtech.jpg);
+		background-position: right;
+	}
+	
+	.css_2{
+		background-image: url(Solve_Images/css.jpg);
+			background-position: right;
+	}
+	
+	.shrim_3{
+		background-image: url(Solve_Images/shrim.jpg);
+		
+	}
+	
+	.nurse_4{
+		background-image: url(Solve_Images/nurse.jpg);
+		background-position: center;
+		transform: translate(80px, 30px);
+	}
+	.ste_5{
+		background-image: url(Solve_Images/ste.jpg);
+		transform: translate(90px, 30px);
+	}
+	
+	.card{
+	 transition: transform 0.3s ease-in-out
+	
+	}
+	
+	.medtech_1:hover{
+		transform: scale(1);
+	}
+	
+	.css_2:hover{
+		transform: scale(1);
+	}
+	
+	.shrim_3:hover{
+		transform: scale(1);
+	}
+	
+	.nurse_4:hover{
+		transform: scale(1);
+	}
+	
+	.ste_5:hover{
+		transform: scale(1);
+	}
+	
+	h5{
+		font-size: 39px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 200px;
+		text-align: center;
+		color:rgb(230, 236, 254);
+	}
+	
+	.IT{
+		font-size: 39px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 200px;
+		text-align: center;
+		color:rgb(95, 86, 83);
+	}
+	.card h5 {
+    opacity: 0; /* hide the text initially */
+    transition: opacity 0.3s ease-in-out; /* added transition effect */
+	margin: 0;
+}
+
+.card:hover h5 {
+    opacity: 1; /* show the text on hover */
+	}
+	
+	.section{
+		transform: translate(-135px);
+	}
+	

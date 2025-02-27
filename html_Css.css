@@ -1,0 +1,154 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    margin: 20px;
+    background-color: #f4f9f1;
+}
+
+header {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.roboto {
+    font-family: "Sevillana", cursive;
+    font-weight: 700;
+}
+
+.roboto_small {
+    font-family: "Sevillana", cursive;
+    font-weight: 230;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.section ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .section ul li {
+      margin-right: 20px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+   
+
+
+
+.navbar.logo {
+    margin-left: 30px;
+    margin-left: 30px;
+    border-radius: 50px 2px 50px 2px;
+    background-color: #d5e5cc;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+.navbar ul {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 45%;
+    position: relative;
+}
+
+.navbar li {
+    margin-right: 0px;
+    font-size: 32px;
+}
+
+.navbar a {
+    color: #12362D;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #267360;
+    background-color: #c2e2b6;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hh1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.items1,.items2,.items3,.items4 {
+    margin-bottom: 40px;
+}
+
+.hh2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f4f9f1;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
